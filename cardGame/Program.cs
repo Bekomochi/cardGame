@@ -22,8 +22,6 @@ namespace cardGame
                 int.TryParse(Console.ReadLine(), out cardNum);
                 Console.ReadLine();
 
-                cardNumerical[i] = cardNum;
-
                 Console.WriteLine("{0}つめの数値は{1}です", cardNumerical[i+1], cardNum);
                 Console.ReadLine();
             }
